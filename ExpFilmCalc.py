@@ -19,12 +19,12 @@ if decadeBW == 0:
 else:
     j = int(0)
     while j < decadeBW:
-        boxBW = box * 2
+        boxBW = box // 2
         j += 1
 
 i = int(0)
 while i < decade:
-    box = box / 2
+    box = box // 2
     i += 1
 
 
