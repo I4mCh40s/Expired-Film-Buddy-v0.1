@@ -1,3 +1,6 @@
+# As a beginner film shooter I was confused by the fact that people actually use expired film stocks and get good results
+# so I made this... this code will help you determine @ which ISO to shoot your expired film. Color AND black and white
+
 import datetime
 
 print ("Expired film buddy v0.1 \n")
