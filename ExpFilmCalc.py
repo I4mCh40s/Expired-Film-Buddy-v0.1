@@ -12,19 +12,21 @@ year = today.year
 
 print("Your film has been expired for: ", year-exp_year, " years.\n")
 decade = (year-exp_year) // 10
-decBW = (year-exp_year) // 20
-if decBW == 0:
-    decBW = box
+decadeBW = (year-exp_year) // 20
+
+if decadeBW == 0:
+    boxBW = box
+else:
+    j = int(0)
+    while j < decadeBW:
+        boxBW = box * 2
+        j += 1
 
 i = int(0)
 while i < decade:
     box = box / 2
     i += 1
 
-j = int(0)
-while j < decBW:
-    boxBW = box * 2
-    j += 1
 
 
 print("Color: Expose your film ", decade, " stop(s) over, or at ISO: ", box)
