@@ -1,4 +1,4 @@
-# Epxired Film Buddy v0.1
+# Expired Film Buddy v0.1
 
 If you're into film photography then you have probably shot an expired film before.
 The main difficulty for me was to correctly interpret film's box speed (aka ISO) and shoot it properly.
